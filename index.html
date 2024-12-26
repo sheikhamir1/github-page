@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>git website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="buttons">
+      <button id="light" class="btn" onclick="changeToLight()">light</button>
+      <button id="dark" class="btn" onclick="changeToDark()">dark</button>
+    </div>
+    <div class="myBody">
+      <div class="line">
+        <h1>introduction to git & github</h1>
+        <h2>Git and GitHub: An Overview</h2>
+        <h4>Git:</h4>
+        <p>
+          Git is a version control system (VCS) that helps developers manage and
+          track changes to files and code over time. It is widely used in
+          software development to maintain the history of changes, collaborate
+          with team members, and ensure the integrity and consistency of a
+          project. Git allows you to keep track of all the modifications made to
+          your codebase, revert to previous versions when needed, and manage
+          parallel development efforts.
+        </p>
+        <h4>Core Features of Git:</h4>
+        <p>
+          Version Control: Git allows you to save snapshots of your code at
+          different points in time. Each snapshot is called a commit. Branching
+          and Merging: You can create branches to work on different features or
+          fixes independently. Once you're done, you can merge the branch back
+          into the main project. Distributed: Unlike centralized version control
+          systems (like SVN), Git is distributed. This means that each developer
+          has their own local copy of the entire repository, including its
+          history. Collaboration: Git allows multiple developers to work on the
+          same project at the same time, merging their changes seamlessly.
+        </p>
+        <h4>Basic Git Commands:</h4>
+        <p>
+          git init – Initializes a new Git repository in your project. git add
+          file – Stages a file, marking it for inclusion in the next commit. git
+          commit -m "message" – Creates a commit with the changes you've staged.
+          git status – Shows the current status of your working directory (which
+          files are staged, which are modified, etc.). git log – Displays the
+          commit history of the repository. git branch – Lists all branches in
+          the repository. git checkout branch – Switches to a specific branch.
+          git merge branch – Merges the changes from the specified branch into
+          the current branch.
+        </p>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
