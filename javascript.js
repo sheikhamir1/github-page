@@ -1,5 +1,7 @@
 "use strict";
 
+console.log("hello world");
+
 let myBody = document.querySelector("Body");
 let light = document.querySelector("#light");
 let dark = document.querySelector("#dark");
